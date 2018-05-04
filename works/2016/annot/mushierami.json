@@ -1,0 +1,583 @@
+{
+	"@context": [
+		"http://www.w3.org/ns/anno.jsonld",
+		{
+			"anbase": "http://purl.org/net/ld/annot/masaka/"
+		}
+	],
+	"options": {
+		"style": "show-vertical"
+	},
+	"@graph": [
+		{
+			"type": "Annotation",
+			"id": "anbase:c6acef3078af37b87dd24bf787db198c",
+			"bodyValue": "蜂　尻焼猿人\nこハごハにとる蜂のすのあなにえや　うましをとめをみつのあぢハひ\n",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00004.jpg/full/full/0/default.jpg#xywh=percent:25.1,41.5,8.2,12.6",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00004.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:25.1,41.5,8.2,12.6"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:c1563b68da4073d75f082e9fe955ca9e",
+			"bodyValue": "毛虫　四方赤良\n毛をふいてきずやもとめんさしつけて　きみがあたりにはひかかりなば",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00004.jpg/full/full/0/default.jpg#xywh=percent:55.0,44.4,8.3,9.9",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00004.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:55.0,44.4,8.3,9.9"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:dc5b8d61287d46b86e2452735117652e",
+			"bodyValue": "むかで　鹿都部真顔\nねがハくバ君がつばきにとけとけと　とけてねぶとの薬もかな",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00005.jpg/full/full/0/default.jpg#xywh=percent:21.4,67.6,9.5,19.6",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00005.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:21.4,67.6,9.5,19.6"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:a51781fb23944e5daec90f76a4bc6674",
+			"bodyValue": "馬追虫　唐衣橘洲\n夜々ハ馬おひむしのねにぞなく　君に心のはつなのはして",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00005.jpg/full/full/0/default.jpg#xywh=percent:35.7,65.8,13.5,13.3",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00005.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:35.7,65.8,13.5,13.3"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:cd6ee6e1b933ff312651f4e5f91cacdb",
+			"bodyValue": "けら　耶奈伎波良年加市\nあだしミハけらてふ虫やいもとせの　ゑんのしたやにふかいりをして",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00006.jpg/full/full/0/default.jpg#xywh=percent:34.4,73.6,14.9,10.5",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00006.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:34.4,73.6,14.9,10.5"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:1dd871c7c0427b781278db18b333bba5",
+			"bodyValue": "はさみむし　桂眉住\nミし人を思ひきるにもきれかぬる　はさみむしてふ名こそ鈍けれ",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00006.jpg/full/full/0/default.jpg#xywh=percent:60.5,53.4,9.8,12.9",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00006.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:60.5,53.4,9.8,12.9"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:72c5e81fb0370a8f7649349748213a33",
+			"bodyValue": "蝶　稀年成\n夢の間ハ蝶とも化して吸いてミむ　恋しき人の花のくちびる",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00007.jpg/full/full/0/default.jpg#xywh=percent:30.3,33.9,17.9,23.2",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00007.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:30.3,33.9,17.9,23.2"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:89cb990bfba67d0f5cb17294f9700fbd",
+			"bodyValue": "蜻蛉　一富士二鷹\n人こころあきつむしともならばなれ　はなちハやらじとりもちの竿",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00007.jpg/full/full/0/default.jpg#xywh=percent:51.1,22.9,18.1,19.9",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00007.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:51.1,22.9,18.1,19.9"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:19cbd4363070164e0f2675cd8cdcc2da",
+			"bodyValue": "芋虫　染川橋丸\nいも虫に似たりや似たりやころころと　わかれぢさむき舟の小蒲団",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00008.jpg/full/full/0/default.jpg#xywh=percent:39.5,39.3,10.8,8.7",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00008.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:39.5,39.3,10.8,8.7"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:69e7caa31c0e0627553faf4def2dfc70",
+			"bodyValue": "虻　紀定丸\n耳のきハの虻とや人のいとふらん　さしてうらみむはりももたねば",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00008.jpg/full/full/0/default.jpg#xywh=percent:16.8,77.4,5.0,7.8",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00008.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:16.8,77.4,5.0,7.8"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:1afe69a42196441a267963a8b9f7f8e4",
+			"bodyValue": "蛍　佐保川の水も汲みます身ハ蛍　中よしのはのくされゑんとて",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00009.jpg/full/full/0/default.jpg#xywh=percent:30.3,54.9,6.5,9.7",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00009.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:30.3,54.9,6.5,9.7"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:48f309d1b3f6c981d7724aa65a95d33e",
+			"bodyValue": "松虫　土師掻安\n蚊屋つりて人まつ虫ハなくばかり　なにおもしろきねところじやない",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00009.jpg/full/full/0/default.jpg#xywh=percent:36.4,26.2,5.5,7.5",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00009.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:36.4,26.2,5.5,7.5"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:9c838cfcb2ff00491f8c5cbaa9696db8",
+			"bodyValue": "蟷螂　浅草市人\nくつがへる心としらでかま首を　あけて蟷螂のおのばかりまつ",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00010.jpg/full/full/0/default.jpg#xywh=percent:63.0,37.9,17.4,21.0",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00010.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:63.0,37.9,17.4,21.0"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:f09c0ad8461e33a868d3031427706c4b",
+			"bodyValue": "ばった　意気躬黒成\nおさへたるばつたと思ふ待夜半も　ただつま戸のミきちきちとなく",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00010.jpg/full/full/0/default.jpg#xywh=percent:30.4,64.8,8.6,9.9",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00010.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:30.4,64.8,8.6,9.9"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:53238153afff5f22fd1fa486adbab4cc",
+			"bodyValue": "ひぐらし　百喜齋森角\n人目よしちよつとここのまに抱きついて　せハしなきねハひぐらしかそも",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00011.jpg/full/full/0/default.jpg#xywh=percent:55.4,38.8,9.8,14.2",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00011.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:55.4,38.8,9.8,14.2"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:22253189b48c5a3dc2175d7e2c61ac50",
+			"bodyValue": "くも　つぶり光\nふんどしをしりよりさげてねやの巣へ　よばひかかれるくものふるまひ",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00011.jpg/full/full/0/default.jpg#xywh=percent:74.3,45.7,7.3,8.4",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00011.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:74.3,45.7,7.3,8.4"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:37d785abe302bbe72f0cab223e504f16",
+			"bodyValue": "赤蜻蛉　朱楽管江\nしのぶより声こそたてね赤蜻蛉　をのがおもいに痩ひこけても",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00017.jpg/full/full/0/default.jpg#xywh=percent:33.3,52.9,16.1,21.9",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00017.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:33.3,52.9,16.1,21.9"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:da1b318ff90bb17448f6c8a079574343",
+			"bodyValue": "いなご　軒端杉丸\n露ばかり草のたもとをひきみれば　いなごのいなと飛のくぞうき",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00017.jpg/full/full/0/default.jpg#xywh=percent:57.7,28.9,8.5,16.0",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00017.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:57.7,28.9,8.5,16.0"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:2d1239f8f1e880f31d2088093b4ac1e6",
+			"bodyValue": "蛇　千枝鼻元\nかきおくる文もとぐろをまき紙に　つもる思ひのたけハながむし",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00018.jpg/full/full/0/default.jpg#xywh=percent:17.4,32.4,30.8,54.1",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00018.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:17.4,32.4,30.8,54.1"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:9359e68c8b87cd50b226a68de43cd16e",
+			"bodyValue": "とかげ　問屋酒船\nきらハるるうらみや色も青とかげ　葛葉ならねど這まとふらん",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00018.jpg/full/full/0/default.jpg#xywh=percent:56.1,53.7,26.2,18.7",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00018.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:56.1,53.7,26.2,18.7"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:8d94b03f3798521e7a950d0f391982b8",
+			"bodyValue": "兜虫　唐来三和\n恋しなば兜虫ともなりぬべし　しのびの緒さへきれはてし身ハ",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00019.jpg/full/full/0/default.jpg#xywh=percent:50.6,69.3,12.6,16.3",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00019.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:50.6,69.3,12.6,16.3"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:47f099bacc69208142ceb48889444e0c",
+			"bodyValue": "蓑虫　立花裏也\n暗の夜に西ハどちやらわかねども　しのぶあまりのかくれミのむし",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00019.jpg/full/full/0/default.jpg#xywh=percent:31.6,35.4,4.0,10.6",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00019.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:31.6,35.4,4.0,10.6"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:1254a3b3045c3025f6dab69378961369",
+			"bodyValue": "轡虫　貸本古喜\nかしましき女に似たるくつわ虫　なれもちりりんきにやなく",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00020.jpg/full/full/0/default.jpg#xywh=percent:25.8,47.2,14.8,15.7",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00020.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:25.8,47.2,14.8,15.7"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:1e0197776cf0b0c330b1d0e4faff76dc",
+			"bodyValue": "蝸牛　高利苅主\nはれやらぬその空言にかたつぶり　ぬるぬるほど猶つのや出しけん",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00020.jpg/full/full/0/default.jpg#xywh=percent:55.5,63.3,12.0,17.7",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00020.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:55.5,63.3,12.0,17.7"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:0955522a5c73d801ab4e99234f2fe6bf",
+			"bodyValue": "きりぎりす　倉部行澄\nさのミにハ鳴音なたてぞきりぎりず　ふか入壁も耳のある世に",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00021.jpg/full/full/0/default.jpg#xywh=percent:40.1,30.1,9.3,16.3",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00021.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:40.1,30.1,9.3,16.3"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:a303fb4bde84d6650fec1c7a6627078f",
+			"bodyValue": "蝉　三輪杉門\nうき人のこころハ蝉に似たりけり　声ばかりしてすがたみせねば",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00021.jpg/full/full/0/default.jpg#xywh=percent:59.5,63.9,7.2,14.7",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00021.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:59.5,63.9,7.2,14.7"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:3739982e55e9cab64489389cd7403767",
+			"bodyValue": "蚓（ミミズ）　一筋道成\nよる昼もわからでまよふ恋のやミ　きみをみみずのねをのみぞなく",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00022.jpg/full/full/0/default.jpg#xywh=percent:52.9,75.6,14.5,11.4",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00022.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:52.9,75.6,14.5,11.4"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:a4d952e558fc7d6019e226d1b9a3acab",
+			"bodyValue": "こうろぎ　此道くらき\nこうろぎのすねとや人の思ふらん　うらむまもなくおれてミすれば",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00022.jpg/full/full/0/default.jpg#xywh=percent:43.3,52.8,5.6,8.1",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00022.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:43.3,52.8,5.6,8.1"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:97a2bd9ef394e0e6471b11a6c370637c",
+			"bodyValue": "蛙　宿屋飯盛\n人づてにくどけと首をふるいけの　かいるのつらへ水くきぞうき",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00023.jpg/full/full/0/default.jpg#xywh=percent:60.7,65.5,17.0,20.5",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00023.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:60.7,65.5,17.0,20.5"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"type": "Annotation",
+			"id": "anbase:18d7a65f4b073189181be2635bf91d52",
+			"bodyValue": "こがねむし　小簾菅枝\nあハれともミよまくらかのこがねむし　こがるるたまのひよるの床",
+			"target": {
+				"type": "Image",
+				"id": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00023.jpg/full/full/0/default.jpg#xywh=percent:37.1,40.0,8.4,8.4",
+				"source": "http://www2.dhii.jp/loris/NIJL0010/099-0127/099-0127-00023.jpg/full/full/0/default.jpg",
+				"selector": {
+					"type": "FragmentSelector",
+					"conformsTo": "http://www.w3.org/TR/media-frags/",
+					"value": "xywh=percent:37.1,40.0,8.4,8.4"
+				}
+			},
+			"creator": "http://purl.org/net/who/kanzaki#masahide",
+			"created": "2016-06-02T12:26:00Z"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p5",
+			"label": "蜂、毛虫"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p6",
+			"label": "むかで、馬追虫"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p7",
+			"label": "けら、はさみむし"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p8",
+			"label": "蝶、蜻蛉"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p9",
+			"label": "芋虫、虻"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p10",
+			"label": "蛍、松虫"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p11",
+			"label": "蟷螂、ばった"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p12",
+			"label": "ひぐらし、くも"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p18",
+			"label": "赤蜻蛉、いなご"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p19",
+			"label": "蛇、とかげ"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p20",
+			"label": "兜虫、蓑虫"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p21",
+			"label": "轡虫、蝸牛"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p22",
+			"label": "きりぎりす、蝉"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p23",
+			"label": "蚓、こうろぎ"
+		},
+		{
+			"target": "http://www2.dhii.jp/loris/NIJL0010/099-0127/p24",
+			"label": "蛙、こがねむし"
+		}
+	]
+}

@@ -1,42 +1,31 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemid="" itemtype="http://schema.org/WebPage" lang="ja">
+<html lang="ja">
 <head>
- <meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width" />
- <title itemprop="name">Image Annotator</title>
- <meta name="ROBOTS" content="NOINDEX,NOFOLLOW" />
- <link itemprop="creator" href="http://purl.org/net/who/kanzaki#masahide" />
- <link rel="help" href="/info/navi" />
- <link rel="copyright" href="/info/disclaimer" />
- <link rel="stylesheet" href="/parts/kan01.css" />
- <link rel="stylesheet" href="/lib/js/annot/annotorious.css" />
- <link rel="stylesheet" href="/lib/js/my/imgannot.css" />
- <script src="/parts/std.js"></script>
- <script src="/lib/js/osd/openseadragonmk.min.js"></script>
- <script src="/lib/js/annot/annotorious.min.js"></script>
- <script src="/lib/js/my/webannotorious.js"></script>
- <script src="/lib/js/my/annotext.js"></script>
- <script src="/lib/js/my/imgannot.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title itemprop="name">Image Annotator</title>
+  <link rel="stylesheet" href="/parts/kan01.css" />
+  <link rel="stylesheet" href="/lib/js/annot/annotorious.css" />
+  <link rel="stylesheet" href="/lib/js/my/imgannot.css" />
+  <script src="/parts/std.js"></script>
+  <script src="/lib/js/osd/openseadragon.min.js"></script>
+  <script src="/lib/js/annot/annotorious.min.js"></script>
+  <script src="/lib/js/my/webannotorious.js"></script>
+  <script src="/lib/js/my/annotext.js"></script>
+  <script src="/lib/js/my/imgannot.js"></script>
 </head>
 
 <body>
-<div class="main" role="main" id="main">
-<h1 id="annotitle">Image Annotator</h1>
+  <div class="main" role="main" id="main">
+  <h1 id="annotitle">Image Annotator</h1>
 
-<div id="openseadragon"></div>
-<script>Mia.setup("http://www2.dhii.jp/nijl/NIJL0010/099-0127/manifest.json", "", "/works/2016/annot/mushierami.json");</script>
-</div><!--eoc(main)-->
-<div class="navi" role="navigation">
-<a href="/docs/sw/" >メタ情報とセマンティック・ウェブ</a> | <a href="/works/2016/pub/image-annotator">Image Annotator Home</a> <span class="mv"> also try <a href="/ext/viewer/mirador?manifest=http://www2.dhii.jp/nijl/NIJL0010/099-0127/manifest.json" onclick="Muib.tool.mvlink(this);">Mirador</a>, <a href="/ext/viewer/uviewer#?manifest=http://www2.dhii.jp/nijl/NIJL0010/099-0127/manifest.json" onclick="Muib.tool.mvlink(this);"><abbr title="Universal Viewer">UViewer</abbr></a> or <a href="/ext/viewer/leaflet?manifest=http://www2.dhii.jp/nijl/NIJL0010/099-0127/manifest.json">Leaflet</a></span>
-</div>
+  <div id="openseadragon"></div>
+  <script>Mia.setup("http://www2.dhii.jp/nijl/NIJL0010/099-0127/manifest.json", "", "./works/2016/annot/mushierami.json");</script>
+  </div>
 
-<footer role="contentinfo" id="cif0" lang="" itemscope="" itemid="http://www.kanzaki.com/works/2016/pub/image-annotator" itemtype="http://schema.org/WebPage">
-<address class="vcard" itemprop="creator" itemscope="" itemtype="http://schema.org/Person" itemid="http://purl.org/net/who/kanzaki#masahide">
-By <span itemprop="name"><a href="/info/who" class="fn url" rel="author">KANZAKI, Masahide</a></span> (see <a itemprop="http://xmlns.com/foaf/0.1/isPrimaryTopicOf" href="/info/webwho.rdf" title="personal profile in RDF">FOAF</a> or <a href="/" itemprop="url" title="The Web KANZAKI home">home</a>), <a title="disclaimer, rights and contact info" href="/info/disclaimer">&#x00A9;2016-2018</a> (for tool).
-</address>
-<span id="cif-credit">Media and annotations follow source license. Image handling by <a href="https://openseadragon.github.io/">OpenSeadragon</a> and annotation by <a href="http://annotorious.github.io/">Annotorious</a>.<br/></span>
-<span id="stinfo">Status: tool created <time class="created" itemprop="dateCreated">2016-05-21</time>; modified <span id="pst"><time class="modified" itemprop="dateModified">2018-05-02</time></span></span>
-<span class="cpr"><br />Original URI is <cite id="orguri">/works/2016/pub/image-annotator</cite></span>
-</footer>
+  <footer style="margin-top: 3ex;">
+    <span>This software Image Annotator (see <a href="https://github.com/dfukagaw28/mk-image-annotator">repository</a> for details), as well as <a href="http://www.kanzaki.com/works/2016/pub/image-annotator">its original version</a> (created by <a href="http://www.kanzaki.com/info/who">Masahide Kanzaki</a>), is released under <a href="https://opensource.org/licenses/MIT">the MIT license</a>.</span><br>
+    <span>Media and annotations follow source license. Image handling by <a href="https://openseadragon.github.io/">OpenSeadragon</a> and annotation by <a href="http://annotorious.github.io/">Annotorious</a>.</span>
+  </footer>
 </body>
 </html>
