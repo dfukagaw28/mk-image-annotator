@@ -479,9 +479,9 @@ STDENV.prototype.setmailto = function(ev){
 	if(window.event) o = event.srcElement
 	else if(ev) o = ev.target;
 	if(o.nodeType == 3) o = o.parentNode;
-	if(o.nodeName == 'strong') o = o.parentNode;
+	if(o.nodeName.toLowerCase() == 'strong') o = o.parentNode;
 	//set href attribute to mailto: + element content minus tags.
-	if(o && o.nodeName == 'a' && o.getAttribute('href').substr(0,7) != scheme){
+	if(o && o.nodeName.toLowerCase() == 'a' && o.getAttribute('href').substr(0,7) != scheme){
 		//o.innerHTML = o.innerHTML.replace(/\ufeff/g,"");
 		o.innerHTML = o.innerHTML.replace(/<i.*?> <\/i>/gi,"");
 		o.setAttribute('href',scheme+o.innerHTML.replace(/<.*?>/g,''));
