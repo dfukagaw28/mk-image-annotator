@@ -631,6 +631,11 @@ q {
 	padding: 0.2em 0.3em;
 }
 
+code {
+	font-size: 100%;
+	font-family: monospace;
+}
+
 /* ----------------------------------------------- */
 /** @Hyper links */
 /* ----------------------------------------------- */
@@ -779,6 +784,9 @@ em.attn {
 	color: green;
 }
 
+.tight {
+	letter-spacing: -1px;
+}
 /** cancel hilites */
 .silent {
 	font-style: normal;
