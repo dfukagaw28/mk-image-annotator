@@ -71,8 +71,8 @@ body.full {
 		/*font-family: sans-serif;*/
 		margin-bottom: 0.5em;
 	}
-	p,li {
-		line-height: 1.35;
+	p,li, dd {
+		line-height: 1.4;
 	}
 
 	.banner, #banner {
@@ -98,14 +98,15 @@ body.full {
 	a[href^="http"]:after {
 		content: url(./netref.gif);
 	}
-	a[href^="http://www.kanzaki"]:after {
+	a[href^="http://www.kanzaki"]:after,
+	a[href^="https://www.kanzaki"]:after {
 		content: "";
 	}
 	a[href^="http://kanzaki"]:after {
 		content: "";
 	}
 	/* in case of photo link */
-	.fphoto a[href^="http"]:after, a.fphoto:after, a.badge[href^="http:"]:after {
+	.fphoto a[href^="http"]:after, a.fphoto:after, a.badge[href^="http"]:after {
 		content: "";
 	}
 	.example a[href^="http"]:after {
@@ -266,6 +267,20 @@ p.esum, div.esum, dd.esum { /* English summary section */
 	padding: 1em;
 	border: dotted #88f 1px;
 }
+/* English summary for ja user */
+.esum {
+	display: none;
+}
+/* English summary for non-ja user */
+body.nonja .esum {
+	display: block;
+}
+body.nonja span.esum,
+body.nonja em.esum
+ {
+	display: inline;
+}
+
 /* from css3.css */
 /* avoid bg image annoyance */
 p, ul, ol, div, table {
@@ -631,6 +646,11 @@ q {
 	padding: 0.2em 0.3em;
 }
 
+code {
+	font-size: 100%;
+	font-family: monospace;
+}
+
 /* ----------------------------------------------- */
 /** @Hyper links */
 /* ----------------------------------------------- */
@@ -779,6 +799,9 @@ em.attn {
 	color: green;
 }
 
+.tight {
+	letter-spacing: -1px;
+}
 /** cancel hilites */
 .silent {
 	font-style: normal;
