@@ -1,3 +1,4 @@
+@charset "utf-8";
 /**
 @prefix : <http://purl.org/net/ns/doas#> .
 <http://www.kanzaki.com/parts/kan01.css> a :CSSStylesheet;
@@ -14,11 +15,15 @@
 /** @Global structure */
 /* ----------------------------------------------- */
 
+html {
+	font-size:100%;
+}
 /** Docoment body */
 body {
 	color: black;
 	background-color: #fdfdfc/*#fdfdf9#fdfdf6*/;
 	font-size:100%;
+	/*font-family: "UD デジタル 教科書体 N-R", sans-serif;*/
 }
 /* for error handling pages */
 body.error{
@@ -37,7 +42,7 @@ body.full {
 
 @media screen, print, tv, projection {
 	body {
-		background: #fdfdfc url(./www.png) no-repeat fixed top left;
+		background: #fdfdfc url(/parts/www.png) no-repeat fixed top left;
 		/* watch out bgcolor for p,ul,dic etc. at the bottom of this section */
 		margin:0;
 		padding: 10px 3em 10px 4em;
@@ -72,7 +77,7 @@ body.full {
 		margin-bottom: 0.5em;
 	}
 	p,li, dd {
-		line-height: 1.4;
+		line-height: 1.5;
 	}
 
 	.banner, #banner {
@@ -96,7 +101,7 @@ body.full {
 	/** from css3.css */
 	/** external link */
 	a[href^="http"]:after {
-		content: url(./netref.gif);
+		content: url(/parts/netref.gif);
 	}
 	a[href^="http://www.kanzaki"]:after,
 	a[href^="https://www.kanzaki"]:after {
@@ -128,6 +133,9 @@ body.full {
 	/* [Help] [Status info] positioning */
 	#stinfo-navi{
 		margin-right:0;
+	}
+	.tagline {
+		display: none;
 	}
 }
 @media only screen and (max-width: 480px) {
@@ -187,7 +195,9 @@ div.main li {
 div.main li p {
 	margin-bottom: 1em;
 }
-
+div.main li ul {
+	margin-top: 0.33em;
+}
 /** Lead / summary section */
 .intro{
 	/*margin-left: -1.5em;*/
@@ -298,7 +308,7 @@ article, aside, footer, header, section {
 /** Note block */
 .note {
 	color: #033;
-	background-color: #eaf7ea;
+	background-color: rgba(234, 247, 234, 0.53);
 	/*width: 92%;*/
 	padding-left: 1em;
 	padding-right: 1em;
@@ -315,7 +325,7 @@ p.note {
 .aux {
 	font-size: 91%;
 	color: #333;
-	background-color: #f9f9f9;
+	background-color: rgba(249, 249, 249, 0.7);
 	padding: 0.5em 1em;
 	border: dotted 1px #333;
 	margin-left: 0;
@@ -355,6 +365,20 @@ div.set p.misc {
 	border: solid 1px #ddd0c0;
 	line-height: 1.3;
 	margin: 1em 1em 1em 0;
+	
+	position: relative;
+}
+.spec-fragment:before,
+.example:before,
+.badexample:before,
+.res-sample:before {
+	position:absolute;
+	top: -7px;
+	left: -1px;
+	font-size: 68.75%;
+	line-height: 1;
+	padding: 0.2em 0.6em;
+	min-width: 5em;
 }
 .auth {
 	border-style: solid;
@@ -368,10 +392,20 @@ div.set p.misc {
 	padding-bottom: 0;
 }
 .spec-fragment{
-	background: white url(/parts/spec.gif) no-repeat top left;
+	background: white /*url(/parts/spec.gif) no-repeat top left*/;
+}
+.spec-fragment:before{
+	content: "from SPEC";
+	background: #fc0;
+	/*color: white;*/
 }
 .example {
-	background: #fcfbf6 url(/parts/example.gif) no-repeat top left;
+	background: rgba(252, 251, 246, 0.8)/*#fcfbf6*/ /*url(/parts/example.gif) no-repeat top left*/;
+}
+.example:before{
+	content: "Example";
+	background: #ddd0c0 /*rgba(214, 191, 177, 0.5)*/;
+	color: rgb(80, 34, 6);
 }
 .example pre, .example p {
 	margin: 0.3em auto;
@@ -382,8 +416,13 @@ div.set p.misc {
 	background-color: #fcfcfc;
 }
 .badexample {
-	background: #fff9f9 url(/parts/badex.gif) no-repeat top left;
+	background: rgba(255, 249, 249, 0.7) /*#fff9f9 url(/parts/badex.gif) no-repeat top left*/;
 	border-color: red;
+}
+.badexample:before{
+	content: "Bad Example";
+	background: rgba(255, 30, 30, 0.7);
+	color: white;
 }
 .l-ex { /* large example */
 	font-size: large;
@@ -426,17 +465,17 @@ form th, form td, .arrange th, .arrange td {
 }
 
 thead {
-	background-color: #ddd;
+	background-color: rgb(242, 242, 242);
 }
 col.term, colgroup.term {
-	background-color: #f8f8ff/*#eef*/;
+	background-color: rgba(248, 248, 255, 0.7);
 }
 col.desc, colgroup.desc,
 td.mark {
-	background-color: #fffff0/*#fcfcf4;#ffffe9*/;
+	background-color: rgba(255, 255, 240, 0.7);
 }
 col.formula, colgroup.formula {
-	background-color: #def;
+	background-color: rgba(216, 236, 255, 0.4);
 }
 .special {
 	background-color: #fee;
@@ -458,7 +497,7 @@ button { /* Safari */
 	display: inline
 }
 fieldset {
-	background-color: #ffffef;
+	background-color: rgba(255, 255, 245, 0.7);
 	padding: 1em;
 	border: gray solid 1px;
 }
@@ -484,8 +523,13 @@ span.hrefprint {
 	color: #777;
 	background: white url(/parts/obsolete.gif) no-repeat top left;
 	padding: 0.5em 1em 0.5em 2em;
+	margin: 1em 0;
 	border: silver dashed 1px;
 	border-right: none;
+}
+.obsolete h2:first-child,
+.obsolete h3:first-child {
+	margin-top: 0.8em;
 }
 li.obsolete {
 	background: transparent;
@@ -572,7 +616,9 @@ li.obsolete {
 .dopo /* <-> prima */ {
 	text-align: right;
 }
-.fyi img {vertical-align:bottom}
+.fyi img {
+	vertical-align: -0.2em; /*bottom*/
+}
 .alt-lang {
 	text-align:right;
 	/*background:#efe*/
@@ -605,20 +651,36 @@ var {
 }
 /*key identifying instruction*/
 .ki kbd, kbd.ki {
-	background: #fff3f3;
-	padding: 0.1em 0.3em;
-	border: solid 1px; /*outset thin not great in IE */
-	border-color: #ccc #333 #333 #ccc;
+	background: #fffdfd;
+	padding: 1px 5px;
+	border: solid #eee 1px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	display: inline-block;
+	min-width: 1em;
+	height: 1.2em;
+	line-height: 1.2;
+	margin: 0 1px;
+	text-align: center;
+	font-size: 95%;
 }
 
 del {
 	color: gray;
 }
+del, body del * {
+	text-decoration: line-through;
+}
+ins {
+	text-decoration-color: rgba(170, 170, 170, 0.8);
+}
 
 acronym,
 abbr { /*IE abac*/
-	border-bottom:1px dotted /* black */;
+	border-bottom:1px dotted ;
 	text-decoration: none ; /* to avoid ugly webkit decoration */
+	display: inline-block;
+	height: 1.3em;
 }
 td abbr {
 	border-bottom-color: silver;
@@ -642,28 +704,53 @@ abbr[title]:hover {
 
 q {
 	color: #044;
-	background: #f5f5eb;
+	background: rgba(245, 245, 235, 0.6);
 	padding: 0.2em 0.3em;
 }
 
 code {
-	font-size: 100%;
 	font-family: monospace;
 }
-
+code,
+textarea,
+pre,
+div.CodeMirror {
+	font-size: 1rem;
+}
 /* ----------------------------------------------- */
 /** @Hyper links */
 /* ----------------------------------------------- */
 
 /* for link anchors */
-a:link{
-	color: blue;
+a:link ,
+.pseudolink,
+.pslink > span {
+	color: rgb(0, 0, 251);;
+	text-decoration: underline rgba(100, 100, 255, 0.35);
 }
 a:visited {
-	color: #944;
+	color: rgb(135, 30, 120); /*rgb(85, 26, 139)rgb(90, 0, 130)rgb(170, 0, 70) #609*/
+	text-decoration: underline rgba(130, 100, 120, 0.3); /*rgba(130, 100, 150, 0.3)rgba(140, 120, 215, 0.3)*/
+}
+a[href^="#"]:visited {
+	color: rgb(10, 10, 130);
+	text-decoration: underline rgba(100, 100, 185, 0.3);
 }
 a:active {
 	color: #e33;
+}
+a:link:hover,
+.pseudolink:hover,
+.pslink > span:hover {
+	background: inherit;
+	text-decoration-color: rgba(0, 0, 255, 0.6); /*blue*/
+}
+a:visited:hover {
+	background: inherit;
+	text-decoration-color: rgba(50, 5, 35, 0.6); /*rgba(30, 0, 65, 0.6); rgba(100, 0, 35, 0.5)rgba(55, 0, 180, 0.5)#944*/
+}
+a[href^="#"]:visited:hover {
+	text-decoration-color: rgba(0, 0, 120, 0.9); /*blue*/
 }
 
 /* avoid confusion on TOC links within the page  (IE) */
@@ -673,9 +760,8 @@ a:active {
 }
 
 .lead a:hover,
-.inner a:hover,
-a:hover  {
-	background: #e8e8e8;
+.inner a:hover {
+	background: rgba(240,240,240,0.5);
 }
 a[name]:hover {
 	background: inherit;
@@ -719,8 +805,8 @@ a.badge:hover {
 /* ----------------------------------------------- */
 
 .hilite{
-	background: #ffffcc;
-	padding: 0.6em 1em;
+	background: rgba(255, 255, 225, 0.7);
+	padding: 0.75em 1em;
 	border: none;
 }
 
@@ -741,35 +827,35 @@ a.badge:hover {
 /** Line marker hilite */
 .dif1 {
 	color:black;
-	background-color:#f0f0fd; /*d3d3f9;f3f3fd;eaeafd*/
+	background-color: rgba(220, 220, 248, 0.5); /*#f0f0fd;d3d3f9;f3f3fd;eaeafd*/
 }
 .example .dif1 {
-	color:black;
-	background-color:#e6e6f9; /*d3d3f9*/
+	/*color:black;
+	background-color:#e6e6f9; d3d3f9*/
 }
 .dif2 {
 	color:black;
-	background-color: #feebeb/*#fff3f3;ffe3e3*/;
+	background-color: rgba(255, 227, 227, 0.6);/*#feebeb;#fff3f3;ffe3e3*/
 }
 .example .dif2 {
-	color:black;
-	background-color:#ffe3e3; /*ffe3e3*/
+	/*color:black;
+	background-color:#ffe3e3; ffe3e3*/
 }
 .dif3 {
 	color:black;
-	background-color:#b7ffaf; /*#ace0ac*/
+	background-color: rgba(204, 255, 199, 0.5); /*#b7ffaf;#ace0ac*/
 }
 .example .dif3 {
-	color:black;
-	background-color:#d9f8d3; /*#ace0ac*/
+	/*color:black;
+	background-color:#d9f8d3; #ace0ac*/
 }
 .dif4 {
 	color:black;
-	background-color:#fff2cd /*#feb*/;
+	background-color:rgba(254, 240, 201, 0.7); /*#fff2cd#feb*/
 }
 .dif5 {
 	color:black;
-	background-color:#e7f4e7;
+	background-color:rgba(231, 244, 231, 0.8); /*#e7f4e7*/
 }
 
 /** Hot, cool, pseudo... */
@@ -780,18 +866,19 @@ em.hot,
 em.attn {
 	font-weight: normal;
 }
-.cool,
-.pseudolink {
+.cool {
 	color:#0000ff;
 }
-.pseudolink {
-	text-decoration: underline;
+.pseudolink,
+.pslink > span {
+	/*text-decoration: underline;*/
 	cursor:pointer;
 }
 .pseudobutton {
-	background:#ddd;
+	background:#f0f0f0;
 	/*padding:0.1em;*/ cursor:pointer;
-	border:gray outset thin;
+	/*border: #e3e3e3 outset thin;*/
+	box-shadow: 1px 1px #00000044;
 	display:block;
 }
 .notice ,
@@ -920,15 +1007,19 @@ a#pflb:hover{
 	line-height: 1.0;
 	text-align: center;
 	padding: 0.3em 0.5em;
-	border: gray 1px dotted;
+	border: #cacaca 1px dotted;
 	margin-left: 0.5em;
 	width: 8em;
 	display: block;
 	float: right;
 }
 #qrcode .pseudobutton {
-	height: 3em;
-	line-height: 3em;
+	height: 2em;
+	line-height: 2em;
+	color: #999;
+	background:#ddd;
+	text-shadow: -1px -1px 1px #99999969, 1px 1px 1px #ffffffe3;
+}
 }
 /* a legacy CSS note */
 #b2t-navi {
@@ -1025,7 +1116,7 @@ a#pflb:hover{
 		text-decoration:none;
 	}
 	/** hyper links */
-	a:link,a:visited,.lead a:visited,.pseudolink {
+	a:link,a:visited,.lead a:visited,.pseudolink, .pslink > span {
 		text-decoration:none;
 		color:navy;
 	}

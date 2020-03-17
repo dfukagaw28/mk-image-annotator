@@ -39,9 +39,7 @@ if(window.DOMParser){
 	}
 }
 
-var ge = new STDENV();
-ge.noframe();
-ge.linkattrs(); 
+//// var ge = new STDENV();はSTDENV.prototype全体の定義の後に移動 2019-06-23
 
 function init(lv){
 	if(! document.getElementById) return;
@@ -70,6 +68,7 @@ function STDENV(){
 		if(ua.indexOf('Mac') != -1) this.isMacIE = true;
 		else if(ua.indexOf('Win') != -1) this.isWinIE = true;
 	}
+	else if(ua.indexOf('Trident') != -1) this.isIE = true;
 	else if(ua.indexOf('Safari') != -1) this.isSafari = true;
 	else if(ua.indexOf('Gecko') != -1) this.isMozilla = true;
 	else if(ua.indexOf('iCab') != -1) this.isIcab = true;
@@ -81,7 +80,8 @@ function STDENV(){
 	this.head = document.getElementsByTagName("head")[0];
 	this.ptocImg = " <img src='/parts/ptoc.gif' class='tocpic' title='Table of Contents of this page' alt='' />";
 	this.ptocMsg = "Click heading, and Table of Contents will pop up";
-
+	document.documentElement.style.fontSize = getComputedStyle(document.documentElement).fontSize;
+}
 
 STDENV.prototype.initvars = function(){
 	if((this.oH1 = document.getElementsByTagName("h1").item(0))){
@@ -583,7 +583,10 @@ STDENV.prototype.genvc = function (){
 }
 
 
-}
+var ge = new STDENV();
+ge.noframe();
+ge.linkattrs(); 
+
 
 
 

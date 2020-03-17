@@ -89,7 +89,7 @@ abbr[title]:hover {
 .refstrp.rtl {
 	width: 110px !important;
 	height: 780px;
-	overflow: scroll-y;
+	overflow-y: scroll;
 }
 #openseadragon, #titleidx > ul {
 	height: 780px;
@@ -394,8 +394,9 @@ li.range.openf > ul {
 } 
 #imgdsc {
 	min-height: 1em;
-	max-height: 10em;
+	max-height: 14em;
 	overflow-y: auto;
+	resize: vertical;
 }
 #imgdsc.curation {
 	max-height: none;
@@ -452,6 +453,7 @@ li.range.openf > ul {
 .metainfo dd {
 	margin-bottom: 0.25em;
 	margin-left: 8em;/*4em;*/
+	word-break: break-all;
 }
 .metainfo div dd:nth-of-type(even) {
 	background: #f8f8f8;
@@ -617,6 +619,25 @@ g[data-motivation].hilite .filter {
 	display: block;
 	margin: 0 auto;
 }
+.fbox figure a.direct:after {
+	content: "";
+}
+.fbox figure a.direct img {
+	border: #aaf solid 1px;
+}
+.fbox figure a.direct:hover img {
+	border: blue solid 1px;
+}
+/* nested collection */
+li .fbox figure {
+	max-width: 130px;
+}
+/*li .fbox figure a img*/
+li .fbox figure img {
+	max-width: 125px;
+	max-height: 150px;
+}
+
 #annoclip .clip
  {
 	min-width: 100px;
@@ -634,6 +655,7 @@ g[data-motivation].hilite .filter {
 	margin-top: 5px;
 	margin-bottom: -5px;
 }
+
 .gbox {
 	/*z-index: 10;*/
 	position: absolute;
@@ -1121,6 +1143,12 @@ ul.collection.mu li {
 	list-style-position: inside;
 	padding-left: 0.8em;
 }
+ul.collection.thumb {
+	padding-left: 0;
+}
+ul.collection.thumb li {
+	list-style: none;
+}
 ul.collection li {
 	line-height: 1.42;
 }
@@ -1147,6 +1175,13 @@ img.thumb {
 	box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.7);
 	max-width: 300px;
 	max-height: 300px;
+}
+img.sthumb {
+	border: gray solid 1px;
+	margin-left: 3px;
+	box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.7);
+	max-width: 120px;
+	max-height: 120px;
 }
 .collection td {
 	vertical-align: top;
@@ -1179,7 +1214,11 @@ img.thumb {
 .collection td span.alt:after {
 	content: ")";
 }
-
+.thumblink {
+	cursor: pointer;
+	font-size: 70%;
+	color: blue;
+}
 
 /** misc **/
 #ccbtn {
